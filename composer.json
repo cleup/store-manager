@@ -1,0 +1,29 @@
+{
+    "name": "cleup/store-manager",
+    "version": "1.0.1",
+    "description": "Global Web Application Store",
+    "keywords": [
+        "store",
+        "global",
+        "manager",
+        "data"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/cleup/store-manager",
+    "authors": [
+        {
+            "name": "Eduard Y",
+            "email": "dev@priveted.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "cleup/arr": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cleup\\Components\\StoreManager\\": "src/"
+        }
+    }
+}
